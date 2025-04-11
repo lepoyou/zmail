@@ -20,7 +20,7 @@ const SEO: React.FC<SEOProps> = ({
 }) => {
   const location = useLocation();
   const url = `https://mail.mdzz.uk${location.pathname}`;
-  const fullTitle = `${title} | 朝来有乡信，犹自寄寒衣`;
+  const fullTitle = `朝来有乡信，犹自寄寒衣`;
 
   useEffect(() => {
     // 更新页面标题
